@@ -1,0 +1,38 @@
+.landing_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  width: 100%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+}
+.heading {
+  font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .landing_section {
+    flex-direction: column-reverse;
+  }
+  .info {
+    width: 100%;
+  }
+
+  .info h1 {
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 16px;
+    color: grey;
+  }
+}
